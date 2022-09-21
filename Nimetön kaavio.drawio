@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T10:07:40.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JvVBco2Doxz1FWUkBqKw" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T10:18:43.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zOInbHe_Q5Po_CZpCYJ3" version="20.3.3" type="github">
   <diagram id="w38ZvXhzb24UrPZDEQOq" name="Sivu-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,10 +34,10 @@
         <mxCell id="ZFPpJLUJY4-MEB3Y58Wt-10" value="category" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="ZFPpJLUJY4-MEB3Y58Wt-9" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZFPpJLUJY4-MEB3Y58Wt-11" value="id_attire(pk)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="ZFPpJLUJY4-MEB3Y58Wt-9" vertex="1">
+        <mxCell id="ZFPpJLUJY4-MEB3Y58Wt-11" value="id_attire(fk)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="ZFPpJLUJY4-MEB3Y58Wt-9" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZFPpJLUJY4-MEB3Y58Wt-12" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="ZFPpJLUJY4-MEB3Y58Wt-9" vertex="1">
+        <mxCell id="ZFPpJLUJY4-MEB3Y58Wt-12" value="_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="ZFPpJLUJY4-MEB3Y58Wt-9" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZFPpJLUJY4-MEB3Y58Wt-13" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
