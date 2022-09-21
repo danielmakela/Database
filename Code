@@ -1,1 +1,19 @@
+#Luon pöydän 1
+CREATE TABLE players(
+username VARCHAR(20),
+ID INTEGER PRIMARY KEY,
+item VARCHAR(20)
+);
+
+CREATE TABLE inventory(
+id_player VARCHAR(100),
+id_item INTEGER PRIMARY KEY,
+FOREIGN KEY(id_player) REFERENCES players(ID)
+);
+
+CREATE TABLE item(
+caetegory INTEGER,
+id_atttire VARCHAR(150),
+_name INT
+);
 
