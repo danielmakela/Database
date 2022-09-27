@@ -3,8 +3,8 @@
 
 <H2>Apps i used in this project</H2>
 -Xampp 3.3.0       <BR>
-!-HeidiSQL 12.1.1.0 <BR>
-!-Python 3.10       <BR>
+#-HeidiSQL 12.1.1.0 <BR>
+#-Python 3.10       <BR>
 
 <H2> General info </H2>
 
