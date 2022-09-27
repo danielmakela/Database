@@ -2,9 +2,9 @@
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/88773240/191476561-c557624c-891d-41b2-99bf-2b5ba6ad6824.png">
 
 <H2>Apps i used in this project</H2>
--Xampp 3.3.0
--HeidiSQL 12.1.1.0
--Python 3.10
+-Xampp 3.3.0       <BR>
+-HeidiSQL 12.1.1.0 <BR>
+-Python 3.10       <BR>
 
 <H2> General info </H2>
 
