@@ -12,7 +12,6 @@ this is a readme of project database this database project process items and pla
 above this text is a picture of the databse in more understandable shape there you can see the Tables,columbs and the PK and FK(Primary and Foreign keys)
 the apps that i have used in this projects are xampp,heidisql(mysql) and pyhton.
 
-<H3>What to install and where from</H3>
 
 
 
