@@ -3,8 +3,8 @@
 
 <H2>Apps i used in this project</H2>
 <A href="https://www.apachefriends.org"> -Xampp 3.3.0 </A> <BR>
-  <A href="https://www.heidisql.com/download.php"> -HeidiSQL 12.1.1.0 </A> <BR>
--Python 3.10       <BR>
+<A href="https://www.heidisql.com/download.php"> -HeidiSQL 12.1.1.0 </A> <BR>
+<A href="https://www.python.org/downloads/"> -Python 3.10 </A> <BR>
 
 <H2> General info </H2>
 
