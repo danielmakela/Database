@@ -1,7 +1,7 @@
 # Database
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/88773240/191476561-c557624c-891d-41b2-99bf-2b5ba6ad6824.png">
 
-<H2>Apps i used in this project</H2>
+<H2>Apps i used in this project and where to download them</H2>
 <A href="https://www.apachefriends.org"> -Xampp 3.3.0 </A> <BR>
 <A href="https://www.heidisql.com/download.php"> -HeidiSQL 12.1.1.0 </A> <BR>
 <A href="https://www.python.org/downloads/"> -Python 3.10 </A> <BR>
