@@ -1,41 +1,18 @@
-#Luon pöydän 1
 CREATE TABLE players(
 username VARCHAR(20),
-ID INTEGER PRIMARY KEY,
+id INTEGER PRIMARY KEY,
 item VARCHAR(20)
 );
 
 CREATE TABLE inventory(
-id_player VARCHAR(100),
+id_player INTEGER,
 id_item INTEGER PRIMARY KEY,
-FOREIGN KEY(id_player) REFERENCES players(ID)
+FOREIGN KEY(id_player) REFERENCES players(id)
 );
 
 CREATE TABLE item(
-caetegory INTEGER,
-id_atttire VARCHAR(150),
-_name INT
+category VARCHAR(150),
+id_attire INTEGER,
+_name VARCHAR(150),
+FOREIGN KEY(id_attire) REFERENCES inventory(id_item)
 );
-
--------------------------------------------
-
-#Luon pöydän 1
-#CREATE TABLE players(
-#username VARCHAR(20),
-#ID INTEGER PRIMARY KEY,
-#item VARCHAR(20)
-#);
-
-#pöytä 2
-CREATE TABLE inventory(
-stack VARCHAR(40),
-id_item INTEGER PRIMARY KEY,
-FOREIGN KEY(id_player) REFERENCES players(ID)
-);
-
-#pöytä 3
-#CREATE TABLE item(
-#caetegory INTEGER,
-#FOREIGN KEY(id_atttire) REFERENCES inventory(id_item),
-#_name VARCHAR(150)
-#);
