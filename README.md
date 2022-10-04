@@ -12,6 +12,10 @@ this is a readme of database project. This database project process items and pl
 Above this text is a picture of the databse in more understandable shape there you can see the Tables,Columbs and the PK and FK(Primary and Foreign keys)
 the apps that i have used in this projects are xampp,heidisql(mysql) and pyhton.<BR>
   <H2>Instruction how to make you own databse</H2>
+  <H4>First steps</H4>
+  first thing you need to do is to download 3 aplication
+  first down load xampp, heidiSQL and python 3.10
+  you can download python from microsoft store or from their own site
   
 
 
