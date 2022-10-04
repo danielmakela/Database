@@ -8,8 +8,8 @@
 
 <H2> General info </H2>
 
-this is a readme of project database this database project process items and players of game called <A href="https://facepunch.com/games/rust"> rust. </A>
-above this text is a picture of the databse in more understandable shape there you can see the Tables,columbs and the PK and FK(Primary and Foreign keys)
+this is a readme of database project. This database project process items and players of game called <A href="https://facepunch.com/games/rust"> rust. </A>
+Above this text is a picture of the databse in more understandable shape there you can see the Tables,Columbs and the PK and FK(Primary and Foreign keys)
 the apps that i have used in this projects are xampp,heidisql(mysql) and pyhton.<BR>
   <H2>Instruction how to make you own databse</H2>
   
