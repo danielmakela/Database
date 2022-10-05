@@ -19,6 +19,8 @@ the apps that i have used in this projects are xampp,heidisql(mysql) and pyhton.
   <H4>Next download Xampp from the link</H4>
 when you have Xampp downloaded activate Apache and MYSQL
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/88773240/194012027-5c6afd9f-8700-4e4c-bcf2-ae32e6ae77b6.png">
-
-
+<H4>Heidisql installation</H4>
+after you have installed heidisql open it and press new and name ur Sql
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/88773240/194013784-a4de03fc-cb53-4bf0-993e-5ab8e7fba52d.png">
+after thta open your 
 
