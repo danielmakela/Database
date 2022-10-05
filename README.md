@@ -18,7 +18,8 @@ the apps that i have used in this projects are xampp,heidisql(mysql) and pyhton.
   you can download python from microsoft store or from their own site
   <H4>Next download Xampp from the link</H4>
 when you have Xampp downloaded activate Apache and MYSQL
-![image](https://user-images.githubusercontent.com/88773240/193995627-ae53d94e-9f9d-477b-a309-d8b604195a63.png)
+![image](https://user-images.githubusercontent.com/88773240/193995652-4b89ba3a-deb0-4a3d-9554-3afafd8a8c1e.png)
+
 
 
 
