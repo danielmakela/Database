@@ -22,8 +22,9 @@ when you have Xampp downloaded activate Apache and MYSQL
 <H4>Heidisql installation</H4>
 after you have installed heidisql open it and press new and name ur Sql
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/88773240/194013784-a4de03fc-cb53-4bf0-993e-5ab8e7fba52d.png">
-after that open your sql
- and create new tables
-<img width="581" alt="image" src=https://user-images.githubusercontent.com/88773240/195267531-812ad853-f6e6-4889-a042-a2d5ff514753.png)
+after that open your sql <BR>
+ and create new tables <BR>
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/88773240/195267856-65759b35-6afc-430b-8bad-5d42986f826b.png">
+
 
 
