@@ -39,3 +39,14 @@ def find():
 buttn.config(command=find)
 
 ws.mainloop()
+
+
+
+
+pip3 install mysql-connector
+
+pip3 install mysql-connector-python==8.0.29
+
+pip install pymysql
+
+pip install mysql
