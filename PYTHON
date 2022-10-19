@@ -7,8 +7,6 @@ mydb = mysql.connector.connect(
   database="rutsa"
 )
 
-from tkinter import *
-
 import tkinter as tk
 import mysql.connector
 from tkinter import *
@@ -84,7 +82,7 @@ submitbtn = tk.Button(root, text ="Login",
 submitbtn.place(x = 150, y = 135, width = 55)
  
 root.mainloop()
-
+--------------------------------------------------------------------------------
 ws = Tk()
 Frm = Frame(ws)
 Label(Frm,text='Enter Word to Find:').pack(side=LEFT)
@@ -125,7 +123,7 @@ buttn.config(command=find)
 ws.mainloop()
 
 
-
+--------------------------------------------------------------------
 
 pip3 install mysql-connector
 
