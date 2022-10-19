@@ -1,3 +1,11 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="127.0.0.1",
+  user="unnamed",
+  password="",
+  database="rutsa"
+)
 
 from tkinter import *
 
