@@ -28,4 +28,5 @@ after that open your sql <BR>
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/88773240/195267856-65759b35-6afc-430b-8bad-5d42986f826b.png">
 now you can proceed to the python.
 <H4>Python</H4>
-now you can start to make the python go to the python file and copy eavry thing from it to the python idle
+now you can start to make the python go to the python file and copy every thing from it to the python idle
+then you should have working database
