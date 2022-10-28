@@ -181,3 +181,20 @@ listbox.pack()
 Update(list)
 
 ws.mainloop()
+---------------------------------------------------------------------------
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="127.0.0.1",
+  user="root",
+  password="",
+  database="rusta"
+)
+mycursor = mydb.cursor()
+
+sqlFormula = "INSERT INTO players (username, id) VALUES (%s, %s)"
+players1 = ("john", 22)
+
+mycursor.execute(sqlFormula, players1)
+
+mydb.commit()
