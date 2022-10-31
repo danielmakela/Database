@@ -38,19 +38,3 @@ mycursor.execute(sqlFormula, players1)
 mydb.commit()
 
 -------------------------------------------------------------------------------
-import mysql.connector
-
-mydb = mysql.connector.connect(
-  host="127.0.0.1",
-  user="root",
-  password="",
-  database="rusta"
-)
-mycursor = mydb.cursor()
-
-mycursor.execute("SELECT * FROM players")
-
-myresult = mycursor.fetchall()
-
-for row in myresult:
-    print(row)
