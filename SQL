@@ -1,18 +1,21 @@
-CREATE TABLE players(
-username VARCHAR(20),
-id INTEGER PRIMARY KEY,
-item VARCHAR(20)
-);
-
-CREATE TABLE inventory(
-id_player INTEGER,
-id_item INTEGER PRIMARY KEY,
-FOREIGN KEY(id_player) REFERENCES players(id)
-);
-
-CREATE TABLE item(
-category VARCHAR(150),
-id_attire INTEGER,
-_name VARCHAR(150),
-FOREIGN KEY(id_attire) REFERENCES inventory(id_item)
-);
+CREATE TABLE `inventory` (
+	`id_player` INT(11) NOT NULL AUTO_INCREMENT,
+	`user` VARCHAR(11) NULL DEFAULT NULL COLLATE,
+	`items` VARCHAR(55) NULL DEFAULT NULL COLLATE,
+	PRIMARY KEY (`id_player`)
+ id_player AUTO_INCREMENT=15
+ ------------------------------------------------------
+ CREATE TABLE `item` (
+	`item_id` INT(11) NOT NULL AUTO_INCREMENT,
+	`category` VARCHAR(11) NULL DEFAULT NULL COLLATE,
+	`item_name` VARCHAR(55) NULL DEFAULT NULL COLLATE,
+	PRIMARY KEY (`item_id`)
+  item_id AUTO_INCREMENT=15
+  -------------------------------------------------------
+  CREATE TABLE `players` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(11) NULL DEFAULT NULL COLLATE,
+	`itemamt` VARCHAR(55) NULL DEFAULT NULL COLLATE,
+	PRIMARY KEY (`id`)
+id AUTO_INCREMENT=15
+----------------------------------------------------------
