@@ -1,0 +1,94 @@
+mycursor = mydb.cursor()
+
+mycursor.execute("SELECT * FROM players")
+
+print("usernames")
+myresult = mycursor.fetchall()
+for x in myresult:
+    print('id: ',x[0],'username: ',x[1],'itemamt: ',x[2])
+    
+
+mydb.close()
+--------------------------------------------------------------
+mycursor = myedb.cursor() 
+
+username = input("type username: ")
+
+itemamt = input("itemsamt: ")
+
+mycursor = myedb.cursor() 
+sql = f"INSERT into players (username, itemamt) VALUE ('{username}','{itemamt}')"
+
+mycursor.execute(sql)
+myedb.commit()
+myedb.close()
+-----------------------------------------------------------------------------
+mycursor = my_db.cursor() 
+
+category = input("type category: ")
+
+item_name = input("name of the item: ")
+
+mycursor = my_db.cursor() 
+sql = f"INSERT into item (category, item_name) VALUE ('{category}','{item_name}')"
+
+mycursor.execute(sql)
+my_db.commit()
+my_db.close()
+-----------------------------------------------------------------------------------
+mycursor = mydb.cursor()
+
+mycursor.execute("SELECT * FROM item")
+
+print("item")
+myresult = mycursor.fetchall()
+for x in myresult:
+    print('category: ',x[1],'item_name: ',x[2])
+    
+
+mydb.close()
+---------------------------------------------------------------------------------------
+
+
+import mysql.connector
+import datetime
+from mysql.connector.cursor import MySQLCursorPrepared
+from tkinter import *
+
+mydb = mysql.connector.connect(
+  host="127.0.0.1",
+  user="root",
+  password="",
+  database="rusta"
+)
+mycursor = mydb.cursor(cursor_class=MySQLCursorPrepared)
+top = Tk()
+top.title('players')
+top.geometry("200x200")
+name_box = Entry()
+name_box.pack(side = RIGHT, expand = True)
+
+def get_username():
+    global person_username
+    person_username = name_box.get()
+    try:
+        sql1="SELECT `players`.`username` FROM `rusta`.`players` WHERE username = %s;"
+        mycursor.execute(sql1,(person_username,))
+        records = mycursor.fetchall()
+        for x in records:
+            print(x)
+    except mysql.connector.Error as err:
+        print("Something went wrong: {}".format(err))
+
+person_username = ""
+button = Button(top, text="Display text", command=get_username)
+button.pack()
+
+
+mainloop()
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
