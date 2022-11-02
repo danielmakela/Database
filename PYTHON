@@ -1,40 +1,116 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(
+my_db = mysql.connector.connect(
   host="127.0.0.1",
   user="root",
   password="",
   database="rusta"
 )
-mycursor = mydb.cursor()
+mycursor = my_db.cursor()
+mycursor.execute("SELECT * FROM category");
+print("inventory")
+myresult = mycursor.fetchall()
+for x in myresult:
+   print('id: ',x[0],'category_name: ',x[1])
 
-sqlFormula = "INSERT INTO players (username, id) VALUES (%s, %s)"
-players = [("jack", 23),
-            ("mat", 21),
-            ("pat", 20),
-         ("marchus", 19),
-            ("pekka", 18),]
+category_id = input("category id: ")
 
-mycursor.executemany(sqlFormula, players)
+item_name = input("item name: ")
 
-mydb.commit()
+mycursor = my_db.cursor() 
+sql = f"INSERT into item (category_id, item_name) VALUES ('{category_id}','{item_name}')"
 
----------------------------------------------------------------------------
+mycursor.execute(sql)
+my_db.commit()
+my_db.close()
+--------------------------------------------------------------------------------------------------
 import mysql.connector
 
-mydb = mysql.connector.connect(
+my_db = mysql.connector.connect(
   host="127.0.0.1",
   user="root",
   password="",
   database="rusta"
 )
-mycursor = mydb.cursor()
+mycursor = my_db.cursor() 
 
-sqlFormula = "INSERT INTO players (username, id) VALUES (%s, %s)"
-players1 = ("john", 22)
+category = input("type category: ")
 
-mycursor.execute(sqlFormula, players1)
+mycursor = my_db.cursor() 
+sql = f"INSERT into category (category_name) VALUE ('{category}')"
 
-mydb.commit()
+mycursor.execute(sql)
+my_db.commit()
+my_db.close()
+-------------------------------------------------------------------------
+import mysql.connector
 
--------------------------------------------------------------------------------
+myedb = mysql.connector.connect(
+  host="127.0.0.1",
+  user="root",
+  password="",
+  database="rusta"
+)
+mycursor = myedb.cursor() 
+
+username = input("type username: ")
+
+itemamt = input("itemsamt: ")
+
+mycursor = myedb.cursor() 
+sql = f"INSERT into players (username, itemamt) VALUE ('{username}','{itemamt}')"
+
+mycursor.execute(sql)
+myedb.commit()
+myedb.close()
+----------------------------------------------------------------------------------------
+import mysql.connector
+
+my_db = mysql.connector.connect(
+  host="127.0.0.1",
+  user="root",
+  password="",
+  database="rusta"
+)
+mycursor = my_db.cursor()
+mycursor.execute("SELECT * FROM item");
+print("item")
+myresult = mycursor.fetchall()
+for x in myresult:
+   print('id: ',x[0],'item_name: ',x[2])
+
+mycursor.execute("SELECT * FROM players");
+print("players")
+myresult = mycursor.fetchall()
+for x in myresult:
+   print('id: ',x[0],'username: ',x[1])
+
+item_id = input("item id: ")
+
+player_id = input("player id: ")
+
+mycursor = my_db.cursor() 
+sql = f"INSERT into inventory (item_id, player_id) VALUES ('{item_id}','{player_id}')"
+
+mycursor.execute(sql)
+my_db.commit()
+my_db.close()
+--------------------------------------------------------------------------------------------
+import mysql.connector
+
+my_db = mysql.connector.connect(
+  host="127.0.0.1",
+  user="root",
+  password="",
+  database="rusta"
+)
+mycursor = my_db.cursor() 
+
+username = input("type username: ")
+
+mycursor = my_db.cursor() 
+sql = f"INSERT into players (username) VALUE ('{username}')"
+
+mycursor.execute(sql)
+my_db.commit()
+my_db.close()
